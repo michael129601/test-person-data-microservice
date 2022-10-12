@@ -24,4 +24,6 @@ public class PersonDTO {
     private String cellPhoneNumber;
 
     private String nationality;
+
+    private String Genero;
 }

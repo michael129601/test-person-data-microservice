@@ -35,6 +35,9 @@ public class Person {
     private String nationality;
 
 
+    private String genero;
+
+
     public Integer getId() {
         return id;
     }
@@ -105,5 +108,13 @@ public class Person {
 
     public void setNationality(String nationality) {
         this.nationality = nationality;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
     }
 }

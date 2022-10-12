@@ -44,4 +44,8 @@ public class PersonCreate {
     @NotNull
     private String nationality;
 
+    @Size(max = 10)
+    @NotNull
+    private String Genero;
+
 }
